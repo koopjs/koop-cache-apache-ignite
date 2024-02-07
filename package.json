@@ -10,7 +10,8 @@
     "lint": "eslint src --ext .ts",
     "lint:ci": "eslint src --ext .ts --rule linebreak-style:0 ",
     "test": "jest",
-    "test:cov": "jest --coverage",
+    "test:cov": "jest --coverage && npm run cov:badge",
+    "cov:badge": "coverage-badges --source coverage/coverage-summary.json --output ./coverage.svg",
     "prepare": "npm run build",
     "postpublish": "gh-release"
   },
@@ -28,6 +29,7 @@
     "@types/lodash": "^4.14.199",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
     "@typescript-eslint/parser": "^6.7.4",
+    "coverage-badges-cli": "^1.2.5",
     "eslint": "^8.51.0",
     "eslint-plugin-prettier": "^5.0.0",
     "gh-release": "^7.0.2",
@@ -51,6 +53,12 @@
       "src/**/*.ts"
     ],
     "coverageDirectory": "./coverage",
+    "coverageReporters": [
+      "json-summary",
+      "json",
+      "text",
+      "lcov"
+    ],
     "testEnvironment": "node",
     "coveragePathIgnorePatterns": [
       "node_modules",
