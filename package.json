@@ -24,11 +24,11 @@
     "config": "^3.3.10"
   },
   "devDependencies": {
-    "@koopjs/koop-core": "^10.2.0",
-    "@types/jest": "^29.5.5",
+    "@koopjs/koop-core": "^10.3.0",
+    "@types/jest": "^29.5.12",
     "@types/lodash": "^4.14.199",
-    "@typescript-eslint/eslint-plugin": "^6.7.4",
-    "@typescript-eslint/parser": "^6.7.4",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
     "coverage-badges-cli": "^1.2.5",
     "eslint": "^8.51.0",
     "eslint-plugin-prettier": "^5.0.0",
