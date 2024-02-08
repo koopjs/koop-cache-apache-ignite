@@ -19,8 +19,8 @@ Using a plugin like the Apache-Ignite cache also benefits deployments that lever
 ```js
 const Koop = require('koop')
 const koop = new Koop()
-const cache = require('@koopjs/cache-apache-ignite')
-koop.register(cache, {
+const { Cache } = require('@koopjs/cache-apache-ignite')
+koop.register(Cache, {
   connStr: '127.0.0.1:10800', // connection string for the Ignite deployment,
   cacheName: 'koop-ignite-cache' // a name to use for the cache; will be created if not found
 })
@@ -42,8 +42,8 @@ Then register the cache plugin without options.
 ```js
 const Koop = require('koop')
 const koop = new Koop()
-const cache = require('@koopjs/cache-apache-ignite')
-koop.register(cache)
+const { Cache } = require('@koopjs/cache-apache-ignite')
+koop.register(Cache)
 ```
 
 [npm-img]: https://img.shields.io/npm/v/@koopjs/cache-apache-ignite.svg?style=flat-square
