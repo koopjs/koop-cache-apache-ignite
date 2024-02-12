@@ -24,7 +24,7 @@
     "config": "^3.3.11"
   },
   "devDependencies": {
-    "@koopjs/koop-core": "^10.3.0",
+    "@koopjs/koop-core": "^10.3.1",
     "@types/jest": "^29.5.12",
     "@types/lodash": "^4.14.199",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
