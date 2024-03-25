@@ -19,7 +19,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@koopjs/logger": "^5.0.0",
-    "@types/config": "^3.3.3",
+    "@types/config": "^3.3.4",
     "apache-ignite-client": "^1.0.0",
     "config": "^3.3.11"
   },
