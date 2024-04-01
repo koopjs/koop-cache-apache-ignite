@@ -27,7 +27,7 @@
     "@koopjs/koop-core": "^10.4.2",
     "@types/jest": "^29.5.12",
     "@types/lodash": "^4.17.0",
-    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^6.21.0",
     "coverage-badges-cli": "^1.2.5",
     "eslint": "^8.57.0",
