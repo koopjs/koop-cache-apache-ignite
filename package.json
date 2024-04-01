@@ -29,7 +29,7 @@
     "@types/lodash": "^4.17.0",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
-    "coverage-badges-cli": "^1.2.5",
+    "coverage-badges-cli": "^2.0.0",
     "eslint": "^8.57.0",
     "eslint-plugin-prettier": "^5.0.0",
     "gh-release": "^7.0.2",
