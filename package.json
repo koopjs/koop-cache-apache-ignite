@@ -24,7 +24,7 @@
     "config": "^3.3.11"
   },
   "devDependencies": {
-    "@koopjs/koop-core": "^10.4.2",
+    "@koopjs/koop-core": "^10.4.4",
     "@types/jest": "^29.5.12",
     "@types/lodash": "^4.17.0",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
@@ -37,7 +37,7 @@
     "rimraf": "^5.0.5",
     "ts-jest": "^29.1.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.5"
   },
   "jest": {
     "moduleFileExtensions": [
